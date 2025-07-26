@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.jaswi{
+
+    position:sticky;
+}
+.navbar {
+    height: 60px;
+    background-color: #050606;
+    border-color: #040505;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+.nav-logo :hover{
+    border:5px solid white;
+}
+
+.logo {
+    background-image: url("WhatsApp\ Image\ 2024-12-30\ at\ 12.39.40_f3131e05.jpg");
+    border-color: #0f1111;
+    background-size:cover;
+    background-position: center;
+    height: 97%;
+    width: 100%;
+}
+.border{
+    border:1.5px solid white;
+} 
+.border:hover{
+    border:1.5px solid white;
+}
+.herosection{
+   
+    background-image: url("NEW_BANNER_.jpg");
+    background-size: cover;
+    height: 150vh;
+    height:400px;  
+    margin:5px 5px;
+    display:flex;
+    justify-content: center;
+   align-items: flex-end;
+    
+}
+.herosection button{
+    position:absolute;
+    left:50%;
+    transform:translate(50%);
+    top:50%;
+    border:8px solid #ff9100 ;
+    border-radius: 20px;
+}
+.hero-msg{
+    background-color:black ;
+    color:#ff9100;
+    height:30px;
+    font-size: bolder;
+    align-items: center;
+    justify-items: center;
+    font-size:0.85rem;
+    width:50%;
+    justify-content: center;
+    margin-bottom:1px;
+}
+.hero-msg a{
+    color:#007185;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height:400px;
+    width:23%; 
+    /*border:2px solid black;*/
+    padding:20px 0px 15px;
+    background-color:white ;
+    margin-top: 20px;
+}
+.box-image{
+    height:200px;
+    background-image: contain;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    color:#007185;
+}
