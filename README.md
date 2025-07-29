@@ -1,4 +1,0 @@
-# APANA
-LEARN 
-<br>
-NEW 
