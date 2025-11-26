@@ -288,12 +288,12 @@ color: #ababab;
 .social-icons a{
   font-size: 30px;
   margin-right:15px;
-  color:#0d0c0c;
+  color:#eaa904;
   display: inline-block;
   transition: transform 0.5s;
 }
 .social-icons a:hover{
-  color: #eaa904;
+  color: #2a04ea;
   transform: translateY(-5px);
 }
 .btn{
