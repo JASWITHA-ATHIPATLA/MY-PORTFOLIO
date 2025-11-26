@@ -26,18 +26,17 @@ body{
 .text-block p {
   margin-bottom: 5px;             /* controlled spacing above h1 */
 }
-
 /* Image styling */
 .sideimg img {
   margin-right: 10px;
-  width: 500px;  
+  margin-left: 20px;
+  width: 30rem;  
   background: linear-gradient(rgba(0,0,0,0.1),#fecf59);
-  height: 500px;                   /* maintain aspect ratio */              /* limit max height */
-  border-radius: 12px;
+  height: 30rem;                   /* maintain aspect ratio */              /* limit max height */
+  border-radius: 50px;
   object-fit: cover;              /* ensure image fills area without distortion */
   display: block;                 /* removes inline spacing issues */
 }
-
 nav{
  display: flex;
  align-items: center;
